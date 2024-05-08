@@ -1,0 +1,49 @@
+.logo {
+  position: relative;
+}
+.logo .sk {
+  position: absolute;
+  top: 15px;
+  right: -90px;
+  padding-left: 10px;
+  border-left: 1px solid #c81523;
+}
+.nav .sk_list {
+  float: left;
+}
+.nav .sk_list ul li {
+  float: left;
+  width: 124px;
+  height: 47px;
+  font-style: 16px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 47px;
+}
+.nav .sk_list ul li a {
+  color: #000000;
+}
+.nav .sk_con {
+  float: left;
+}
+.nav .sk_con ul li {
+  float: left;
+  width: 68px;
+  height: 49px;
+  font-style: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 47px;
+}
+.nav .sk_con .more::after {
+  content: '\e91e';
+  font-family: 'icomoon';
+}
+.sk_bd .clearfix li {
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+  width: 290px;
+  height: 460px;
+  border: 1px solid transparent;
+}

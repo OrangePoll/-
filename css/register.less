@@ -1,0 +1,160 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1200px;
+    height: 84px;
+
+    .logo {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        border-bottom: 2px solid #c81523;
+    }
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #cccccc;
+
+    h3 {
+        height: 42px;
+        background-color: #ececec;
+        font-weight: normal;
+        text-indent: 1em;
+        line-height: 42px;
+        border-bottom: 1px solid #cccccc;
+
+        .login {
+            float: right;
+            margin-right: 5px;
+            text-align: center;
+            font-weight: normal;
+            line-height: 42px;
+
+            a {
+                color: #c81523;
+            }
+        }
+    }
+
+    .reg_form {
+        width: 600px;
+        margin: 50px auto 0;
+
+        li {
+            margin: 0 0 20px;
+
+            //label标签,设置宽就可以对齐了
+            label {
+                display: inline-block;
+                width: 88px;
+                text-align: right;
+            }
+
+            .inp {
+                width: 242px;
+                height: 37px;
+                border: 1px solid #cccccc;
+            }
+            
+            //代码简洁
+
+            // .error {
+            //     color: #c81523;
+            //     // display: inline-block;
+            //     vertical-align: middle;
+            //     width: 20px;
+            //     height: 25px;
+            //     background: url(../images/error.png) no-repeat;
+            //     margin-top: -2px;
+            // }
+
+            // .success {
+            //     color: #008000;
+            //     // display: inline-block;
+            //     vertical-align: middle;
+            //     width: 20px;
+            //     height: 25px;
+            //     background: url(../images/success.png) no-repeat;
+            //     margin-top: -2px;
+            // }
+            .error_icon,
+            .success_icon {
+                display: inline-block;
+                vertical-align: middle;
+                width: 20px;
+                height: 20px;
+                background: url(../images/error.png) no-repeat;
+                margin-top: -2px;
+            }
+
+            .success {
+                color: green;
+            }
+
+            .success_icon {
+                background: url(../images/success.png) no-repeat;
+            }
+
+
+        }
+
+        .safe {
+            padding-left: 170px;
+            em {
+                padding: 0 12px;
+                color: white;
+            }
+
+            .ruo {
+                background-color: #de1111;
+            }
+
+            .zhong {
+                background-color: #40b83f;
+            }
+
+            .qiang {
+                background-color: #f79100;
+            }
+        }
+
+        .agree {
+            height: 18px;
+            padding-left: 95px;
+            input {
+                //盒子垂直居中
+                vertical-align: middle;
+            }
+            a {
+                color: #1ba1e6;
+            }
+        }
+    }
+
+    .btn {
+        width: 200px;
+        height: 34px;
+        background-color: #c81623;
+        font-size: 14px;
+        color: #fff;
+        margin: 30px 0 0 70px;
+    }
+}
+
+.mod_copyright {
+    text-align: center;
+
+    div {
+        margin-top: 20px;
+    }
+}
+
+.links {
+    margin-bottom: 15px;
+}
+.links a {
+    margin: 0 3px;
+}

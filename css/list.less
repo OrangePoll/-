@@ -1,0 +1,63 @@
+// 列表页专有的css
+.logo {
+    position: relative;
+    .sk {
+        position: absolute;
+        top: 15px;
+        right:-90px;
+        padding-left: 10px;
+        border-left: 1px solid #c81523;
+
+    }
+}
+
+.nav {
+    // background-color: saddlebrown;
+    .sk_list {
+        float: left;
+        ul li {
+            float: left;
+            width: 124px;
+            height: 47px;
+            font-style: 16px;
+            font-weight: 800;
+            text-align: center;
+            line-height: 47px;
+            a {
+                color: #000000;
+            }
+        }
+    }
+    .sk_con {
+        float: left;
+        ul li {
+            float: left;
+            width: 68px;
+            height: 49px;
+            font-style: 14px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 47px;
+        }
+        .more {
+            &::after {
+                content: '\e91e';
+                font-family: 'icomoon';
+            }
+        }
+    }
+}
+
+
+.sk_bd {
+    .clearfix {
+        li {
+            overflow: hidden;
+            float: left;
+            margin-right: 10px;
+            width: 290px;
+            height: 460px;
+            border: 1px solid transparent;
+        }
+    }
+}
